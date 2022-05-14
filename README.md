@@ -1,4 +1,1 @@
-## Minecraft deprecated mods
-| Mod Name            | Version     |
-| ------------------- | ----------- |
-| The Twilight Forest | v3.0.0      |
+This place is now for TeddyJi's public files!
