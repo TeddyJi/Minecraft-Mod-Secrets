@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teddy Archive</title>
+        <meta charset="UTF-8" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            #topbanner {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 8px 24px 0 rgba(0, 0, 0, 0.38);
+                background-color: #00FA9A;
+                width: 100%;
+                height:50px;
+                margin: 0 auto;
+                padding: 10px;
+            }
+            #topbanner p {
+                color: white;
+                font-size: 38px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #content {
+                margin: 80px;
+                width: auto;
+                height: 440px;
+            }
+            #content p {
+                font-size: 60px;
+                text-align: center;
+            }
+            #content h4 {
+                text-align: center;
+            }
+            #redir {
+                background-color: #00A2ED;
+                width: 220px;
+                height: 50px;
+                margin: 0 auto;
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 8px 24px 0 rgba(0, 0, 0, 0.38);
+    		    transition: 250ms ease;
+			    overflow: visible;
+            }
+            #redir:hover {
+                box-shadow:  12px 0 24px 0 rgba(0, 0, 0, 0.4), 0 6px 18px 0 rgba(0, 0, 0, 0.38); 
+			    transition: 250ms;
+			    overflow: visible;
+                background-color:rgb(40, 230, 255);
+            }
+            #redir p {
+                font-size: 35px;
+                color: white;
+                margin: auto auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topbanner">
+            <p>Teddy Archive</p>
+        </div>
+        <div id="content">
+            <p>Welcome to Teddy Archive</p>
+            <h4>Here, you can find different kinds of stuffs, either useful or not.</h4>
+            <br/><br/><br/>
+            <div id="redir" onclick="javascript:window.location.href='https://github.com/TeddyJi/TeddyJiArchive'">
+                <p>Let's go!</p>
+            </div>
+        </div>
+    </body>
+</html>
